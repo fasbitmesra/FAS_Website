@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Work+Sans:wght@700&display=swap");
+
+$font-title: "Work Sans", sans-serif;
+$blue-color: #3f57ff;
+$gold-color: #ffb31b;
+$red-color: #ff6249;
+$gray-color: #444;
+$primary-text: #222;
+$secondary-text: #666;
+$white-text: #fff;
+$primary-bg: #fafafa;
+$secondary-bg: #ddd;
+
+@mixin text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+@mixin text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@mixin text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@mixin text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+@mixin btn-primary {
+  background: $gold-color;
+  box-shadow: 0 4px 4px rgba($primary-text, 0.25);
+  color: $primary-text;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+
+  &:hover {
+    box-shadow: 0 8px 8px rgba($primary-text, 0.25);
+  }
+}
+
+@mixin frosted-glass {
+  backdrop-filter: blur(0.75rem);
+}
+
+@mixin shadow-text {
+  &:hover {
+    text-shadow: 0 0px 4px rgba($primary-text, 0.5);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
