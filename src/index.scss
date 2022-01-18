@@ -21,25 +21,27 @@ $secondary-bg: #ddd;
 }
 
 @mixin text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 28px;
+  line-height: 42px;
 }
 @mixin text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 44px;
+  line-height: 60px;
 }
 
 @mixin btn-primary {
   background: $gold-color;
   box-shadow: 0 4px 4px rgba($primary-text, 0.25);
   color: $primary-text;
-  padding: 5px 10px;
-  border-radius: 10px;
+  padding: 8px 25px;
+  border-radius: 5px;
   border: none;
-  font-size: 24px;
+  text-decoration: none;
+  font-size: 16px;
 
   &:hover {
     box-shadow: 0 8px 8px rgba($primary-text, 0.25);
+    transition: linear 0.25s;
   }
 }
 
@@ -51,6 +53,22 @@ $secondary-bg: #ddd;
   &:hover {
     text-shadow: 0 0px 4px rgba($primary-text, 0.5);
   }
+}
+
+@mixin mp0 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 body {
