@@ -145,15 +145,7 @@
   .Slider-row {
     overflow-x: scroll;
     white-space: nowrap;
-
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    @include hide-scrollbar;
 
     img {
       height: 280px;
@@ -167,6 +159,112 @@
 
     a {
       @include btn-primary;
+    }
+  }
+}
+
+//Events Component -----------------------------------------------------------------------
+
+.Events-container {
+  background: $orange-color;
+  padding-top: 30px;
+
+  h1 {
+    margin: 20px auto;
+    text-align: center;
+    color: $white-text;
+    @include text-2xl;
+  }
+
+  .Events-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    .Events-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .Events-card {
+        width: 30%;
+        overflow: hidden;
+        @include hide-scrollbar;
+        position: relative;
+        margin: 20px 0 10px;
+
+        img {
+          width: 100%;
+          box-shadow: 4px 4x 4px rgba($primary-text, 0.5);
+          transition: filter 0.25s;
+          vertical-align: middle;
+        }
+
+        p {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $white-text;
+          padding: 30px;
+          text-align: justify;
+          opacity: 0;
+          transition: opacity 0.5s;
+          max-height: 100%;
+          font-size: 16px;
+        }
+
+        &:hover {
+          img {
+            filter: blur(12px) brightness(0.75);
+          }
+          p {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Events-bg {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .Events-container {
+    .Events-grid {
+      .Events-row {
+        .Events-card {
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Events-container {
+    .Events-grid {
+      .Events-row {
+        .Events-card {
+          width: 42%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Events-container {
+    .Events-grid {
+      .Events-row {
+        .Events-card {
+          width: 80%;
+        }
+      }
     }
   }
 }

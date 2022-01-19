@@ -3,7 +3,7 @@
 $font-title: "Work Sans", sans-serif;
 $blue-color: #3f57ff;
 $gold-color: #ffb31b;
-$red-color: #ff6249;
+$orange-color: #ff6249;
 $gray-color: #444;
 $primary-text: #222;
 $secondary-text: #666;
@@ -46,12 +46,23 @@ $secondary-bg: #ddd;
 }
 
 @mixin frosted-glass {
-  backdrop-filter: blur(0.75rem);
+  backdrop-filter: blur(12px);
 }
 
 @mixin shadow-text {
   &:hover {
     text-shadow: 0 0px 4px rgba($primary-text, 0.5);
+  }
+}
+
+@mixin hide-scrollbar {
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
 
