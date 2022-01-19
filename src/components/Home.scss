@@ -33,7 +33,7 @@
     }
 
     h2 {
-      @include text-2xl;
+      @include text-xl;
       font-weight: 600;
       margin: 0;
       padding: 0 10px;
@@ -91,6 +91,7 @@
     margin-bottom: 30px;
 
     img {
+      width: 50%;
       max-width: 500px;
       height: auto;
     }
@@ -100,7 +101,7 @@
       padding: 5px;
 
       h2 {
-        @include text-2xl;
+        @include text-xl;
         margin: 20px 0;
       }
 
@@ -167,13 +168,14 @@
 
 .Events-container {
   background: $orange-color;
-  padding-top: 30px;
+  padding: 0 0 30px;
 
   h1 {
     margin: 20px auto;
     text-align: center;
     color: $white-text;
     @include text-2xl;
+    font-weight: 600;
   }
 
   .Events-grid {
@@ -265,6 +267,50 @@
           width: 80%;
         }
       }
+    }
+  }
+}
+
+//Spectra Section -----------------------------------------------------------------------
+
+.Spectra-section {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .Spectra-text {
+    width: 50%;
+    padding: 5px;
+
+    h2 {
+      @include text-xl;
+    }
+
+    p {
+      color: $primary-text;
+      margin: 20px 0 30px;
+    }
+
+    a {
+      @include btn-primary;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Spectra-section {
+    padding: 0 15px;
+    flex-direction: column-reverse;
+
+    img {
+      width: 100%;
+    }
+
+    .Spectra-text {
+      width: 100%;
     }
   }
 }

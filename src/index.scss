@@ -16,13 +16,13 @@ $secondary-bg: #ddd;
   line-height: 1.75rem;
 }
 @mixin text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 28px;
+  line-height: 42px;
 }
 
 @mixin text-2xl {
-  font-size: 28px;
-  line-height: 42px;
+  font-size: 32px;
+  line-height: 48px;
 }
 @mixin text-3xl {
   font-size: 44px;
