@@ -1,19 +1,19 @@
 import React from "react";
 import FasLogo from "../../assets/elements/FAS_logo(black).png";
 
-const AboutSection = (props) => {
-  return (
-    <>
-      <img src={FasLogo} alt="FAS Logo" />
-      <div className="About-text">
-        <h2>{props.title}</h2>
-        <p>{props.desc}</p>
-      </div>
-    </>
-  );
-};
-
 function About() {
+  const AboutSection = (props) => {
+    return (
+      <>
+        <img src={FasLogo} alt="FAS Logo" />
+        <div className="About-text">
+          <h2>{props.title}</h2>
+          <p>{props.desc}</p>
+        </div>
+      </>
+    );
+  };
+
   return (
     <>
       <div className="About-container">

@@ -53,7 +53,7 @@
   .Hero-container {
     height: 50vh;
     background-color: $blue-color;
-    margin-bottom: 50vw;
+    margin-bottom: 45vw;
     img {
       top: 50vh;
     }
@@ -88,6 +88,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 30px;
 
     img {
       max-width: 500px;
@@ -117,7 +118,7 @@
 
 @media (max-width: 768px) {
   .About-container {
-    padding: 0 20px;
+    padding: 0 15px;
     .About-section {
       flex-direction: column;
 
@@ -131,6 +132,41 @@
     }
     #About-reverse {
       flex-direction: column;
+    }
+  }
+}
+
+//Slider Component ------------------------------------------------------------------------
+
+.Slider-container {
+  text-align: center;
+  margin: 60px 0;
+
+  .Slider-row {
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    img {
+      height: 280px;
+      width: auto;
+      margin: 2px;
+    }
+  }
+
+  .Slider-btn {
+    margin-top: 30px;
+
+    a {
+      @include btn-primary;
     }
   }
 }

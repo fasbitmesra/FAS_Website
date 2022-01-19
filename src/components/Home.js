@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import About from "./homepage/About";
+import Slider from "./homepage/Slider";
 import Events from "./homepage/Events";
 import Team from "./homepage/Team";
 import Contact from "./homepage/Contact";
@@ -27,6 +28,7 @@ function Home() {
       </div>
 
       <About />
+      <Slider />
       <Events />
       <Team />
       <Contact />
