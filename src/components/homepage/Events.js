@@ -1,9 +1,21 @@
 import React from "react";
 import EventInfo from "../../api/EventInfo";
+import WorkshopInfo from "../../api/WorkshopInfo";
 import EventBG from "../../assets/backgrounds/Events-bg.png";
+import WorkshopsBG from "../../assets/backgrounds/Workshops-bg.png";
 import { NavLink } from "react-router-dom";
 
 function Events() {
+  const workshopBg = {
+    backgroundImage: `url(${WorkshopsBG})`,
+    width: "100%",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    padding: "30px 0",
+    margin: "60px 0",
+  };
+
   return (
     <>
       <div className="Events-container">
@@ -37,6 +49,19 @@ function Events() {
         </div>
 
         <img src="" alt="..." />
+      </div>
+
+      <div style={workshopBg} className="Workshops-container">
+        <h2>Workshops</h2>
+
+        <div className="Workshops-grid">
+          {WorkshopInfo.map((event, index) => (
+            <div className="Workshop-card">
+              <img src={event.image} alt={event.title} />
+              <p>{event.desc}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
