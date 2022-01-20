@@ -4,7 +4,7 @@ $font-title: "Work Sans", sans-serif;
 $blue-color: #3f57ff;
 $gold-color: #ffb31b;
 $orange-color: #ff6249;
-$gray-color: #444;
+$gray-color: #333;
 $primary-text: #222;
 $secondary-text: #666;
 $white-text: #fff;
@@ -12,8 +12,8 @@ $primary-bg: #fafafa;
 $secondary-bg: #ddd;
 
 @mixin text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 22px;
+  line-height: 32px;
 }
 @mixin text-xl {
   font-size: 28px;
