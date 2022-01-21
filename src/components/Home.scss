@@ -384,3 +384,141 @@
     }
   }
 }
+
+// Team Section ---------------------------------------------------------------------------
+
+.Team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  img {
+    border: solid 8px white;
+  }
+
+  .Team-faculty {
+    width: 25%;
+    padding: 30px 0px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    .Faculty-card {
+      img {
+        width: 60%;
+        border-radius: 50%;
+        position: absolute;
+        top: 42%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      }
+
+      svg {
+        color: $gold-color;
+      }
+    }
+  }
+
+  .post {
+    color: $secondary-text;
+  }
+
+  .Team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // justify-content: space-evenly;
+
+    .Member-card {
+      width: 20%;
+      position: relative;
+      text-align: center;
+      margin: 20px 0;
+
+      .Member-pic {
+        img {
+          width: 60%;
+          border-radius: 50%;
+          position: absolute;
+          top: 40%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      .col-0 {
+        color: $blue-color;
+      }
+      .col-1 {
+        color: $orange-color;
+      }
+      .col-2 {
+        color: $gold-color;
+      }
+      .col-3 {
+        color: $orange-color;
+      }
+      .col-4 {
+        color: $blue-color;
+      }
+    }
+  }
+}
+
+/* width */
+.Team-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+.Team-grid::-webkit-scrollbar-track {
+  background: $secondary-bg;
+  border-radius: 20px;
+}
+
+/* Handle */
+.Team-grid::-webkit-scrollbar-thumb {
+  background: $secondary-text;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.Team-grid::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .Team-container {
+    p {
+      font-size: 14px;
+    }
+
+    img {
+      border: solid 6px white;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Team-container {
+    // max-width: 2000px;
+    .Team-faculty {
+      width: 175px;
+    }
+
+    .Team-grid {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      .Member-card {
+        width: 150px;
+        .Member-pic {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
