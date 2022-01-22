@@ -1,0 +1,69 @@
+@import "../../index.scss";
+
+.container{
+  display: flex;
+}
+
+.contact-form button{
+  background: #FFB31B;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.contact-form input{
+  background: #DDDDDD;
+  margin-bottom: 1rem;
+}
+.contact-form textarea{
+  background: #DDDDDD;
+  margin-bottom: 1rem;
+}
+.contact-detail h1{
+  margin-bottom: 2rem;
+}
+.Contact-social {
+  margin-top: 2rem;
+  /*h3 {
+    @include text-lg;
+    margin: 10px 0;
+  }*/
+
+  .Social-icon-container {
+    display: flex;
+    flex-direction: row;
+
+    .Social-icon {
+      background: $secondary-bg;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $gray-color;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer-conatiner {
+    .Footer-head {
+      width: 60%;
+    }
+    .Footer-social {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Footer-conatiner {
+    .Footer-head {
+      width: 100%;
+    }
+    .Footer-menu {
+      width: 50%;
+      margin-top: 20px;
+    }
+  }
+}
