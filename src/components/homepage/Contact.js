@@ -6,7 +6,7 @@ import { MdLocationOn, MdMail } from "react-icons/md";
 function Contact() {
   return (
     <>
-      <div className="Contact-container">
+      <div className="Contact-container" id="contact">
         <div className="Contact-img">
           <img src={Brush} alt="Brush-img" />
         </div>

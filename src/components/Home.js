@@ -15,7 +15,7 @@ function Home() {
     <>
       <Navbar />
 
-      <div className="Hero-container">
+      <div className="Hero-container" id="home">
         <img src={HomeBG} alt="..." />
 
         <div className="Hero">

@@ -17,7 +17,7 @@ function About() {
 
   return (
     <>
-      <div className="About-container">
+      <div className="About-container" id="about">
         <div className="About-section">
           {AboutSection({
             title: "Who Are We?",

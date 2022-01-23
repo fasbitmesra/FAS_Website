@@ -1,9 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import FasSocialInfo from "../api/FasSocialInfo";
 import "./Footer.scss";
 
 function Footer() {
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -70;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <>
       <div className="Footer-bg">
@@ -17,21 +23,31 @@ function Footer() {
             <div className="Footer-menu-col">
               <ul className="Footer-links">
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink smooth to="/#">
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About</NavLink>
+                  <NavLink smooth scroll={scrollWithOffset} to="/#about">
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/team">Team</NavLink>
+                  <NavLink smooth scroll={scrollWithOffset} to="/#team">
+                    Team
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink smooth scroll={scrollWithOffset} to="/#contact">
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
               <ul className="Footer-links">
                 <li>
-                  <NavLink to="/events">Events</NavLink>
+                  <NavLink smooth scroll={scrollWithOffset} to="/#events">
+                    Events
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink to="/gallery">Gallery</NavLink>

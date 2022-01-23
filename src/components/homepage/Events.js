@@ -18,7 +18,7 @@ function Events() {
 
   return (
     <>
-      <div className="Events-container">
+      <div className="Events-container" id="events">
         <h1>Events</h1>
 
         <div className="Events-grid">

@@ -5,7 +5,7 @@ import { ReactComponent as TeamBG } from "../../assets/backgrounds/Team-bg.svg";
 function Team() {
   return (
     <>
-      <div className="Team-container">
+      <div className="Team-container" id="team">
         <h1>Team</h1>
         <div className="Team-faculty">
           <div className="Faculty-card">
