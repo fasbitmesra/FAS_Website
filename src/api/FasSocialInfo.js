@@ -1,4 +1,5 @@
 import {
+  FaGoogle,
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
@@ -6,6 +7,11 @@ import {
 } from "react-icons/fa";
 
 const FasSocialInfo = [
+  {
+    name: "Email",
+    link: "mailto:fasmesra@gmail.com",
+    icon: <FaGoogle />,
+  },
   {
     name: "Facebook",
     link: "https://www.facebook.com/fasbitmesra",

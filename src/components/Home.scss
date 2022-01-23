@@ -195,10 +195,10 @@
         @include hide-scrollbar;
         position: relative;
         margin: 20px 0 10px;
+        cursor: pointer;
 
         img {
           width: 100%;
-          box-shadow: 4px 4x 4px rgba($primary-text, 0.5);
           transition: filter 0.25s;
           vertical-align: middle;
         }
@@ -211,7 +211,6 @@
           padding: 30px;
           text-align: justify;
           opacity: 0;
-          transition: opacity 0.5s;
           max-height: 100%;
           font-size: 16px;
         }
@@ -505,7 +504,6 @@
 
 @media (max-width: 600px) {
   .Team-container {
-    // max-width: 2000px;
     .Team-faculty {
       width: 175px;
     }
@@ -519,6 +517,129 @@
           width: 150px;
         }
       }
+    }
+  }
+}
+
+// Contact component -----------------------------------------------------------------------
+
+.Contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 60px auto;
+
+  .Contact-img {
+    width: 25%;
+    padding: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .Contact-center {
+    width: 35%;
+
+    .Contact-detail {
+      h1 {
+        margin: 35px 0 20px;
+        @include text-2xl;
+      }
+
+      p {
+        vertical-align: middle;
+        padding: 5px 0;
+      }
+    }
+
+    .Contact-social {
+      margin: 35px 0;
+
+      .Social-icon-container {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+
+        .Social-icon {
+          background: $secondary-bg;
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+          margin-right: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: $gray-color;
+
+          &:hover {
+            box-shadow: 0 4px 4px rgba($primary-text, 0.25);
+            transition: linear 0.25s;
+          }
+        }
+      }
+    }
+  }
+
+  .Contact-form {
+    width: 40%;
+    padding: 30px 0;
+
+    .Form-group {
+      padding: 10px;
+
+      input {
+        height: 35px;
+        @include form-input;
+      }
+      textarea {
+        height: 100px;
+        resize: none;
+        @include form-input;
+      }
+    }
+
+    .Form-btn {
+      padding: 10px;
+      button {
+        @include btn-primary;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Contact-container {
+    .Contact-img {
+      width: 40%;
+    }
+
+    .Contact-center {
+      width: 60%;
+    }
+
+    .Contact-form {
+      width: 100%;
+      padding: 0 10%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Contact-container {
+    .Contact-img {
+      display: none;
+    }
+
+    .Contact-center {
+      width: 100%;
+      padding: 0 10%;
+    }
+
+    .Contact-form {
+      padding: 0 5%;
     }
   }
 }

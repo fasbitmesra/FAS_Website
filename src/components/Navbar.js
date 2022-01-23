@@ -21,19 +21,19 @@ function Navbar() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="About">About</NavLink>
           </li>
           <li>
             <NavLink to="/gallery">Gallery</NavLink>
           </li>
           <li>
-            <NavLink to="/events">Events</NavLink>
+            <NavLink to="Events">Events</NavLink>
           </li>
           <li>
-            <NavLink to="/team">Team</NavLink>
+            <NavLink to="Team">Team</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="Contact">Contact</NavLink>
           </li>
         </ul>
 
