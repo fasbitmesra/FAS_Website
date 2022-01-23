@@ -1,6 +1,6 @@
 import React from "react";
 import FasSocialInfo from "../../api/FasSocialInfo";
-import Brush from "../../assets/elements/contactImg.png";
+import Brush from "../../assets/elements/contact_img.png";
 import { MdLocationOn, MdMail } from "react-icons/md";
 
 function Contact() {
