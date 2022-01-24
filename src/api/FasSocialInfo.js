@@ -1,10 +1,5 @@
-import {
-  FaGoogle,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaGoogle, FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 
 const FasSocialInfo = [
   {
@@ -20,7 +15,7 @@ const FasSocialInfo = [
   {
     name: "Instagram",
     link: "https://www.instagram.com/fasbitmesra/",
-    icon: <FaInstagram />,
+    icon: <BsInstagram />,
   },
   {
     name: "LinkedIn",

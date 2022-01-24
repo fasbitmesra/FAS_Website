@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import FasSocialInfo from "../../api/FasSocialInfo";
 import Brush from "../../assets/elements/contact_img.png";
 import { MdLocationOn, MdMail } from "react-icons/md";
 
 function Contact() {
+  const [userdata, setUserdata] = useState({
+    name: "",
+    email: "",
+    mesaage: "",
+  });
+
+  const postUserData = (event) => {
+    setUserdata({ ...userdata, [event.target.name]: event.target.value });
+  };
+
+  const submitUserData = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <>
       <div className="Contact-container" id="contact">
@@ -39,26 +53,48 @@ function Contact() {
           </div>
         </div>
         <div className="Contact-form">
-          <div className="Form-group">
-            <label for="fname">Name</label>
-            <div className="">
-              <input type="text" id="fname" name="name"></input>
+          <form method="POST">
+            <div className="Form-group">
+              <label for="name">Name</label>
+              <div className="">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={userdata.name}
+                  onChange={postUserData}
+                ></input>
+              </div>
             </div>
-          </div>
-          <div className="Form-group">
-            <label for="email">Email</label>
-            <div className="col-sm-10">
-              <input type="email" id="email" name="email"></input>
+            <div className="Form-group">
+              <label for="email">Email</label>
+              <div className="col-sm-10">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={userdata.email}
+                  onChange={postUserData}
+                ></input>
+              </div>
             </div>
-          </div>
-          <div className="Form-group">
-            <label for="comment">Message</label>
-            <br />
-            <textarea className="form-control" rows="5" id="comment"></textarea>
-          </div>
-          <div className="Form-btn">
-            <button type="submit">Contact Us</button>
-          </div>
+            <div className="Form-group">
+              <label for="comment">Message</label>
+              <br />
+              <textarea
+                name="message"
+                rows="5"
+                id="comment"
+                value={userdata.message}
+                onChange={postUserData}
+              ></textarea>
+            </div>
+            <div className="Form-btn">
+              <button type="submit" onClick={submitUserData}>
+                Contact Us
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </>

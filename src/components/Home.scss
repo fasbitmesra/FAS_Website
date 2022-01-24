@@ -199,7 +199,7 @@
 
         img {
           width: 100%;
-          transition: filter 0.25s;
+          transition: filter 0.2s;
           vertical-align: middle;
         }
 
@@ -439,13 +439,59 @@
       margin: 20px 0;
 
       .Member-pic {
-        img {
+        .Image-border {
+          overflow: hidden;
           width: 60%;
           border-radius: 50%;
           position: absolute;
           top: 40%;
           left: 52%;
           transform: translate(-50%, -50%);
+          display: flex;
+          background-color: white;
+
+          img {
+            width: 100%;
+            border-radius: 50%;
+            align-self: center;
+          }
+        }
+
+        .Social-icon-container {
+          width: 60%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding: 8px;
+          position: absolute;
+          top: 40%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+
+          .Social-icon {
+            background: $white-text;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $gray-color;
+          }
+        }
+
+        &:hover {
+          img {
+            filter: blur(8px);
+            transition: filter 0.2s;
+            cursor: pointer;
+          }
+
+          .Social-icon-container {
+            opacity: 1;
+            transition: opacity 0.2s;
+          }
         }
       }
 
@@ -498,6 +544,21 @@
 
     img {
       border: solid 6px white;
+    }
+
+    .Team-grid {
+      .Member-card {
+        .Member-pic {
+          .Social-icon-container {
+            padding: 5px;
+            .Social-icon {
+              width: 25px;
+              height: 25px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -575,7 +636,7 @@
 
           &:hover {
             box-shadow: 0 4px 4px rgba($primary-text, 0.25);
-            transition: linear 0.25s;
+            transition: linear 0.1s;
           }
         }
       }

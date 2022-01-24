@@ -1,6 +1,8 @@
 import React from "react";
 import TeamInfo from "../../api/TeamInfo";
 import { ReactComponent as TeamBG } from "../../assets/backgrounds/Team-bg.svg";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 
 function Team() {
   return (
@@ -20,7 +22,26 @@ function Team() {
           {TeamInfo.members.map((member, index) => (
             <div className="Member-card">
               <div className={`Member-pic col-${index % 5}`}>
-                <img src={member.image} alt="..." />
+                <div className="Image-border">
+                  <img src={member.image} alt="..." />
+                </div>
+                <div className="Social-icon-container">
+                  <a href={member.facebookLink}>
+                    <div className="Social-icon">
+                      <FaFacebookF />
+                    </div>
+                  </a>
+                  <a href={member.instagramLink}>
+                    <div className="Social-icon">
+                      <BsInstagram />
+                    </div>
+                  </a>
+                  <a href={member.linkedinLink}>
+                    <div className="Social-icon">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                </div>
                 <TeamBG />
               </div>
               <p>{member.name}</p>
