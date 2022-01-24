@@ -41,7 +41,7 @@ $secondary-bg: #ddd;
 
   &:hover {
     box-shadow: 0 8px 8px rgba($primary-text, 0.25);
-    transition: linear 0.25s;
+    transition: linear 0.2s;
   }
 }
 
@@ -78,7 +78,7 @@ $secondary-bg: #ddd;
 
   &:focus {
     box-shadow: 0 4px 4px rgba($primary-text, 0.25);
-    transition: linear 0.25s;
+    transition: linear 0.1s;
   }
 }
 
