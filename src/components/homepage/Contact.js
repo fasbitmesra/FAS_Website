@@ -5,9 +5,10 @@ import { MdLocationOn, MdMail } from "react-icons/md";
 
 function Contact() {
   const [userdata, setUserdata] = useState({
-    name: "",
-    email: "",
-    mesaage: "",
+    senderName: "",
+    senderEmail: "",
+    message: "",
+    receiverEmail: "singhutkarsh902@gmail.com",
   });
 
   const postUserData = (event) => {
@@ -16,6 +17,20 @@ function Contact() {
 
   const submitUserData = (event) => {
     event.preventDefault();
+
+    if (userdata.senderName && userdata.senderEmail && userdata.message) {
+      window.open(
+        `mailto:${userdata.receiverEmail}?subject=Message from ${userdata.senderName} through FAS Website&body=${userdata.message} from ${userdata.senderEmail}`
+      );
+      setUserdata({
+        senderName: "",
+        senderEmail: "",
+        message: "",
+        receiverEmail: "singhutkarsh902@gmail.com",
+      });
+    } else {
+      alert("Please fill all the fields!");
+    }
   };
 
   return (
@@ -53,15 +68,15 @@ function Contact() {
           </div>
         </div>
         <div className="Contact-form">
-          <form method="POST">
+          <form>
             <div className="Form-group">
               <label for="name">Name</label>
               <div className="">
                 <input
                   type="text"
                   id="name"
-                  name="name"
-                  value={userdata.name}
+                  name="senderName"
+                  value={userdata.senderName}
                   onChange={postUserData}
                 ></input>
               </div>
@@ -72,8 +87,8 @@ function Contact() {
                 <input
                   type="email"
                   id="email"
-                  name="email"
-                  value={userdata.email}
+                  name="senderEmail"
+                  value={userdata.senderEmail}
                   onChange={postUserData}
                 ></input>
               </div>

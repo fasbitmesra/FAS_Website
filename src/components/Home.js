@@ -8,7 +8,7 @@ import Contact from "./homepage/Contact";
 import Footer from "./Footer";
 import "./Home.scss";
 import HomeBG from "../assets/backgrounds/Home-bg.png";
-import { NavLink } from "react-router-dom";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -22,7 +22,9 @@ function Home() {
           <h1>Fine Arts Society, BIT Mesra</h1>
           <h2>Where Creativity Thrives.</h2>
           <div className="Hero-btn">
-            <NavLink to="/contact">Contact Us</NavLink>
+            <NavLink smooth to="/#contact">
+              Contact Us
+            </NavLink>
           </div>
         </div>
       </div>
