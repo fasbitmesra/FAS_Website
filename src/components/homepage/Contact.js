@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import FasSocialInfo from "../../api/FasSocialInfo";
 import Brush from "../../assets/elements/contact_img.png";
 import { MdLocationOn, MdMail } from "react-icons/md";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [userdata, setUserdata] = useState({
     senderName: "",
     senderEmail: "",
     message: "",
-    receiverEmail: "singhutkarsh902@gmail.com",
   });
 
   const postUserData = (event) => {
@@ -19,14 +19,28 @@ function Contact() {
     event.preventDefault();
 
     if (userdata.senderName && userdata.senderEmail && userdata.message) {
-      window.open(
-        `mailto:${userdata.receiverEmail}?subject=Message from ${userdata.senderName} through FAS Website&body=${userdata.message} from ${userdata.senderEmail}`
-      );
+      emailjs
+        .send(
+          "service_czn8abl",
+          "template_bqfhabi",
+          userdata,
+          "user_ASsJaHXOWVTDpNNfYXKaT"
+        )
+        .then(
+          (result) => {
+            alert("Your message is sent!");
+          },
+          (error) => {
+            alert(
+              "An error occured. Please try again or contact us through email."
+            );
+          }
+        );
+
       setUserdata({
         senderName: "",
         senderEmail: "",
         message: "",
-        receiverEmail: "singhutkarsh902@gmail.com",
       });
     } else {
       alert("Please fill all the fields!");
