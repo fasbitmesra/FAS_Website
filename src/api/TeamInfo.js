@@ -1,25 +1,34 @@
-import Harsh from "../assets/team pictures/HARSH SINGH.jpg";
+import HarshSingh from "../assets/team pictures/HarshSingh.jpeg";
+import ShailendraKumar from "../assets/team pictures/ShailendraKumar.jpg";
 
 const TeamInfo = {
   faculty: {
     name: "Dr. Apurv Ashish",
     post: "Faculty Advisor",
-    image: Harsh,
+    image: HarshSingh,
   },
 
   members: [
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "https://www.facebook.com/harsh.singh.353803/",
       instagramLink: "https://www.instagram.com/harsh999924/",
       linkedinLink: "https://www.linkedin.com/in/harsh-singh-bit/",
     },
     {
+      name: "Shailendra Kumar",
+      post: "Joint President",
+      image: ShailendraKumar,
+      facebookLink: "/#team",
+      instagramLink: "https://instagram.com/arto_grapher_",
+      linkedinLink: "/#team",
+    },
+    {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -27,7 +36,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -35,7 +44,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -43,7 +52,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -51,7 +60,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -59,7 +68,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -67,7 +76,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -75,7 +84,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -83,7 +92,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -91,7 +100,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -99,7 +108,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -107,7 +116,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",
@@ -115,15 +124,7 @@ const TeamInfo = {
     {
       name: "Harsh Singh",
       post: "President",
-      image: Harsh,
-      facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Harsh Singh",
-      post: "President",
-      image: Harsh,
+      image: HarshSingh,
       facebookLink: "/#team",
       instagramLink: "/#team",
       linkedinLink: "/#team",

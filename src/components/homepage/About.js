@@ -21,14 +21,14 @@ function About() {
         <div className="About-section">
           {AboutSection({
             title: "Who Are We?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            desc: "The Fine Arts Society, known around the campus as FAS, is a community of like-minded individuals that have a common passion that is  the pursuit of art and collaborate together to create something beautiful and unique. FAS has people who are innovative, hardworking, and creative. FAS plays an important role in shaping students' creative background which includes paintings, crafts, sculptors and decorations. It also plays a key part in the organization as the design team decorating the college during fests.",
             image: FasLogo,
           })}
         </div>
         <div className="About-section" id="About-reverse">
           {AboutSection({
             title: "What We Do.",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            desc: "FAS contributes to the institute's creativity and design ideas. It also organizes various workshops ranging from digital to traditional techniques for the all-round development of the students in the field of art. Main events of FAS are Spectra, the Annual Club fest and Deeprangni, the Diwali fest. Along with this several PAN India events, workshops and competitions are also organized by FAS. The major college fest BITOTSAV and technical fest PANTHEON decoration is also done by the members of FAS.",
             image: GroupPhoto,
           })}
         </div>
