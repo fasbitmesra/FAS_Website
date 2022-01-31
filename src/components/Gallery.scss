@@ -1,0 +1,24 @@
+@import "../index.scss";
+
+.Featured-container {
+  max-width: 1200px;
+  margin: 30px auto;
+
+  .Featured-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .Featured-card {
+      width: 20%;
+      padding: 10px;
+      margin: 20px 0;
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+  }
+}

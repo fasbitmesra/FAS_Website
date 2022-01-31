@@ -10,8 +10,6 @@ function Carousel({ title, images }) {
             <img src={image} alt={index} />
           ))}
         </div>
-
-        <div className="Slider-btn"></div>
       </div>
     </>
   );
