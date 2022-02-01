@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "./Spectra.scss";
+import { NavLink } from "react-router-dom";
 
 function Spectra() {
   return (
     <>
-      <Navbar />
+      <NavLink to="/">Back</NavLink>
 
       <div className="Spectra-container">
         <h1>Spectra</h1>
