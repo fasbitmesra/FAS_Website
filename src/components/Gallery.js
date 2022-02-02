@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Carousel from "./gallerypage/Carousel";
@@ -7,6 +7,10 @@ import Featured from "./gallerypage/Featured";
 import "./Gallery.scss";
 
 function Gallery() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <Navbar />
