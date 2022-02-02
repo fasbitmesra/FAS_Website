@@ -16,6 +16,13 @@ function Events() {
     margin: "60px 0",
   };
 
+  const cardBg = (image) => ({
+    backgroundImage: `url(${image})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+  });
+
   return (
     <>
       <div className="Events-container" id="events">
@@ -57,7 +64,9 @@ function Events() {
         <div className="Workshops-grid">
           {WorkshopInfo.map((event, index) => (
             <div className="Workshop-card">
-              <img src={event.image} alt={event.title} />
+              <div style={cardBg(event.image)} className="Workshop-img">
+                <img src={event.image} alt={event.title} className="content" />
+              </div>
               <p>{event.desc}</p>
             </div>
           ))}

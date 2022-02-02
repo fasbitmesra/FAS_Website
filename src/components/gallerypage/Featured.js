@@ -8,9 +8,15 @@ function Featured() {
         <h2>Featured Artworks</h2>
         <div className="Featured-grid">
           {FeaturedArtworks.map((artwork, index) => (
-            <div class="Featured-card">
-              <img src={artwork.image} alt={artwork.title} />
-              <div class="container">
+            <div className="Featured-card">
+              <div className="Featured-img">
+                <img
+                  src={artwork.image}
+                  alt={artwork.title}
+                  className="content"
+                />
+              </div>
+              <div className="Featured-text">
                 <h4>{artwork.title}</h4>
                 <p>By {artwork.artist}</p>
               </div>

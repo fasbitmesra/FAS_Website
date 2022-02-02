@@ -338,8 +338,12 @@
       width: 30%;
       margin: 10px auto;
 
-      img {
-        width: 100%;
+      .Workshop-img {
+        @include aspect-ratio(1, 1);
+        img {
+          height: 100%;
+          margin: 0 auto;
+        }
       }
 
       p {
