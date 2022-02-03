@@ -14,12 +14,12 @@ const EventInfo = [
   {
     title: "Kshitiz",
     image: Deeprangini,
-    desc: "Kshitij is annual the Rakshabandhan event in which all the participants are presented with an opportunity to showcase their talents and send in their artwork and win prizes. “DOR” the rakhi making competition and “KALA MANCH”, a mandaldesign competition is organised which receives PAN India participation with great zeal.",
+    desc: "Kshitij is annual the Rakshabandhan event in which all the participants are presented with an opportunity to showcase their talents and send in their artwork and win prizes. “DOR” the rakhi making competition and “KALA MANCH”, a mandala design competition is organised which receives PAN India participation with great zeal.",
   },
   {
     title: "Junky",
     image: Deeprangini,
-    desc: "JUNKY is a best out of waste competition. As the name suggests, here the participants have to use the 3R’s principle to create new stuff out of waste materials such as tetra packs, bottles, newspapers, old utensils, jute material or any secondhand items that otherwise would be thrown away.",
+    desc: "JUNKY is a best out of waste competition. As the name suggests, here the participants have to use the 3R's principle to create new stuff out of waste materials such as tetra packs, bottles, newspapers, old utensils, jute material or any secondhand items that otherwise would be thrown away.",
   },
   {
     title: "Lockdown Creativity",

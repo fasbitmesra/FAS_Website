@@ -1,33 +1,34 @@
+import ApurvAshish from "../assets/team pictures/ApurvAshish.jpg";
 import HarshSingh from "../assets/team pictures/HarshSingh.jpeg";
 import ShailendraKumar from "../assets/team pictures/ShailendraKumar.jpg";
 import ShreyaRani from "../assets/team pictures/ShreyaRani.jpg";
 import DeeptamDas from "../assets/team pictures/DeeptamDas.jpg";
 import Anukriti from "../assets/team pictures/Anukriti.jpg";
 import MeghanaTripathy from "../assets/team pictures/MeghanaTripathy.jpg";
-import Rooturaj from "../assets/team pictures/Rooturaj.jpg";
+import Rooturaj from "../assets/team pictures/RooturajSwain.jpg";
 import DikshaPrasad from "../assets/team pictures/DikshaPrasad.jpg";
 import SaurabhSuman from "../assets/team pictures/SaurabhSuman.jpg";
 import AtreyeeChatterjee from "../assets/team pictures/AtreyeeChatterjee.jpg";
-import KhushiBhardwaj from "../assets/team pictures/KhushiBhardwaj.jpg";
+import KhushiBharadwaj from "../assets/team pictures/KhushiBharadwaj.jpg";
 import VishalSingh from "../assets/team pictures/VishalSingh.jpg";
 import SamridhiKumari from "../assets/team pictures/SamridhiKumari.jpg";
-import HimanshuSingh from "../assets/team pictures/HimanshuSingh.jpg";
+import HimanshuSingh from "../assets/team pictures/HimanshuSingh.png";
 import SonalShruti from "../assets/team pictures/SonalShruti.jpg";
 import UrvashiAaryika from "../assets/team pictures/UrvashiAaryika.jpg";
 import VikashKumar from "../assets/team pictures/VikashKumar.jpg";
 import HarshitaPriya from "../assets/team pictures/HarshitaPriya.jpg";
-import AryanAkhaouri from "../assets/team pictures/AryanAkhaouri.jpg";
-import KhushbooDev from "../assets/team pictures/KhushbooDev.jpg";
+import AryanAkhouri from "../assets/team pictures/AryanAkhouri.jpg";
+import KhushbooDev from "../assets/team pictures/KhushbooDev.jpeg";
 import HimanshuMurmu from "../assets/team pictures/HimanshuMurmu.jpg";
 import UdishaSresttha from "../assets/team pictures/UdishaSresttha.jpg";
 import DaibiMoitra from "../assets/team pictures/DaibiMoitra.jpg";
-import SayaniDas from "../assets/team pictures/SayaniDas.jpg";
+import SayaniDas from "../assets/team pictures/SayaniDas.png";
 
 const TeamInfo = {
   faculty: {
     name: "Dr. Apurv Ashish",
     post: "Faculty Advisor",
-    image: HarshSingh,
+    image: ApurvAshish,
   },
 
   members: [
@@ -52,7 +53,8 @@ const TeamInfo = {
       post: "Vice President",
       image: ShreyaRani,
       facebookLink: "https://www.facebook.com/profile.php?id=100016352625574",
-      instagramLink: "https://instagram.com/shreyasharma9902?utm_medium=copy_link",
+      instagramLink:
+        "https://instagram.com/shreyasharma9902?utm_medium=copy_link",
       linkedinLink: "https://www.linkedin.com/in/shreya-rani-4446671b6",
     },
     {
@@ -114,9 +116,10 @@ const TeamInfo = {
     {
       name: "Khushi Bhardwaj",
       post: "Joint Treasurer",
-      image: KhushiBhardwaj,
+      image: KhushiBharadwaj,
       facebookLink: "https://www.facebook.com/profile.php?id=100057593744743",
-      instagramLink: "https://instagram.com/kreative_bhardwaj?utm_medium=copy_link",
+      instagramLink:
+        "https://instagram.com/kreative_bhardwaj?utm_medium=copy_link",
       linkedinLink: "https://www.linkedin.com/in/khushi-bhardwaj-0a18881a7",
     },
     {
@@ -178,9 +181,10 @@ const TeamInfo = {
     {
       name: "Aryan Akhouri",
       post: "Publicity Head",
-      image: AryanAkhaouri,
+      image: AryanAkhouri,
       facebookLink: "/#team",
-      instagramLink: "https://instagram.com/whyaryanakhouri?utm_medium=copy_link",
+      instagramLink:
+        "https://instagram.com/whyaryanakhouri?utm_medium=copy_link",
       linkedinLink: "http://www.linkedin.com/in/aryan-akhouri-87434a20b",
     },
     {
@@ -205,7 +209,8 @@ const TeamInfo = {
       image: UdishaSresttha,
       facebookLink: "/#team",
       instagramLink: "https://www.instagram.com/newtonsapple/",
-      linkedinLink: "https://www.linkedin.com/mwlite/in/udisha-sresttha-0b5821107",
+      linkedinLink:
+        "https://www.linkedin.com/mwlite/in/udisha-sresttha-0b5821107",
     },
     {
       name: "Daibi Moitra",
@@ -220,7 +225,8 @@ const TeamInfo = {
       post: "Executive Member",
       image: SayaniDas,
       facebookLink: "/#team",
-      instagramLink: "https://instagram.com/sayani_das102k?utm_medium=copy_link",
+      instagramLink:
+        "https://instagram.com/sayani_das102k?utm_medium=copy_link",
       linkedinLink: "https://www.linkedin.com/in/sayani-das-7210951a5",
     },
   ],
