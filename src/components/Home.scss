@@ -164,15 +164,29 @@
   text-align: center;
   margin: 100px 0;
 
+  .Slider-row:hover img{
+    opacity: 0.3;
+  }
+
   .Slider-row {
     overflow-x: scroll;
     white-space: nowrap;
     @include hide-scrollbar;
+    margin: 0% 2%;
 
     img {
       height: 280px;
       width: auto;
-      margin: 2px;
+      margin: 10px 5px;
+      border-radius: 10px;
+      object-fit:cover;
+      transform-origin:center;
+      transform:perspective(800px) rotateY(25deg);
+      transition:0.5s;
+    }
+    img:hover {
+      transform:perspective(800px) rotateY(0deg);
+      opacity:1;
     }
   }
 
@@ -192,10 +206,10 @@
   padding: 30px 0;
 
   h1 {
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
     color: $white-text;
-    @include text-2xl;
+    @include text-3xl;
     font-weight: 600;
   }
 
@@ -340,7 +354,7 @@
 .Workshops-container {
   h2 {
     margin: 10px auto;
-    @include text-2xl;
+    @include text-3xl;
     text-align: center;
     font-weight: 600;
   }
@@ -417,6 +431,7 @@
   h1 {
     padding: 10px 0;
     text-align: center;
+    @include text-3xl;
   }
 
   img {
