@@ -3,7 +3,7 @@ import EventInfo from "../../api/EventInfo";
 import WorkshopInfo from "../../api/WorkshopInfo";
 import EventBG from "../../assets/backgrounds/Events-bg.png";
 import WorkshopsBG from "../../assets/backgrounds/Workshops-bg.png";
-import { NavLink } from "react-router-dom";
+import SpectraImg from "../../assets/elements/Spectra.png";
 
 function Events() {
   const workshopBg = {
@@ -47,17 +47,17 @@ function Events() {
         <div className="Spectra-text">
           <h2>Spectra</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Skecthing, painting, doodling, vegetable carving, tattoo making,
+            mask making, exciting events, talk shows with famous artists,
+            amazing prizes and lots more fun; This is the annual fest of Fine
+            Arts Society : SPECTRA. So, get ready for a weekend full of creative
+            action and beautiful memories. Stay tuned for further updates.
           </p>
-          <NavLink to="/spectra">Spectra Page</NavLink>
+          {/* <NavLink to="/spectra">Spectra Page</NavLink> */}
+          <span className="Spectra-btn">Coming soon</span>
         </div>
 
-        <img src="" alt="..." />
+        <img src={SpectraImg} alt="Spectra Poster" />
       </div>
 
       <div style={workshopBg} className="Workshops-container">

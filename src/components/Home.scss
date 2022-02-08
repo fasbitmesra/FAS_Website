@@ -105,7 +105,6 @@
         @include text-2xl;
         text-align: center;
         margin: 20px 0;
-        // color: rgb(0, 33, 112);
       }
 
       p {
@@ -133,7 +132,12 @@
       }
 
       .About-text {
+        font-size: 14px;
         width: 100%;
+
+        p {
+          margin: 0;
+        }
       }
     }
     #About-reverse {
@@ -176,7 +180,7 @@
       object-fit: cover;
       transform-origin: center;
       transform: perspective(800px) rotateY(25deg);
-      transition: 0.5s;
+      transition: 0.25s;
     }
     img:hover {
       transform: perspective(800px) rotateY(0deg);
@@ -322,9 +326,15 @@
       margin: 20px 0 30px;
     }
 
-    a {
+    .Spectra-btn {
       @include btn-primary;
+      cursor: default;
     }
+  }
+
+  img {
+    width: 40%;
+    padding: 20px;
   }
 }
 
@@ -334,11 +344,17 @@
     flex-direction: column-reverse;
 
     img {
-      width: 100%;
+      width: 90%;
+      margin-bottom: 30px;
     }
 
     .Spectra-text {
       width: 100%;
+      text-align: center;
+
+      p {
+        font-size: 14px;
+      }
     }
   }
 }
