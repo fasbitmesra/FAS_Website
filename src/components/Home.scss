@@ -28,7 +28,6 @@
       font-family: $font-title;
       font-weight: 700;
       @include text-3xl;
-      font-size: 70px;
       margin: 15px 0;
       padding: 0 10px;
     }
@@ -36,7 +35,6 @@
     h2 {
       @include text-xl;
       font-weight: lighter;
-      font-size: 25px;
       margin: 0;
       padding: 0 10px;
     }
@@ -104,19 +102,16 @@
       padding: 5px;
 
       h2 {
-        @include text-xl;
+        @include text-2xl;
         text-align: center;
-        font-size: 2.5rem;
         margin: 20px 0;
-        color: rgb(0,33,112);
+        // color: rgb(0, 33, 112);
       }
 
       p {
-        text-align:center;
-        color: rgb(98,101,103);
-        font-size: medium;
-        font-family:Arial, Helvetica, sans-serif;
-        line-height: 1.6;
+        text-align: center;
+        color: $secondary-text;
+        font-size: 16px;
         margin: 0% 5%;
       }
     }
@@ -148,15 +143,14 @@
 }
 
 @media (max-width: 480px) {
-  .About-container{
-    .About-section{
-      img{
+  .About-container {
+    .About-section {
+      img {
         display: none;
       }
     }
   }
 }
-    
 
 //Slider Component ------------------------------------------------------------------------
 
@@ -164,7 +158,7 @@
   text-align: center;
   margin: 100px 0;
 
-  .Slider-row:hover img{
+  .Slider-row:hover img {
     opacity: 0.25;
   }
 
@@ -179,14 +173,14 @@
       width: auto;
       margin: 10px 5px;
       border-radius: 10px;
-      object-fit:cover;
-      transform-origin:center;
-      transform:perspective(800px) rotateY(25deg);
-      transition:0.5s;
+      object-fit: cover;
+      transform-origin: center;
+      transform: perspective(800px) rotateY(25deg);
+      transition: 0.5s;
     }
     img:hover {
-      transform:perspective(800px) rotateY(0deg);
-      opacity:1;
+      transform: perspective(800px) rotateY(0deg);
+      opacity: 1;
     }
   }
 
@@ -209,7 +203,7 @@
     margin: 10px auto;
     text-align: center;
     color: $white-text;
-    @include text-3xl;
+    @include text-2xl;
     font-weight: 600;
   }
 
@@ -354,7 +348,7 @@
 .Workshops-container {
   h2 {
     margin: 10px auto;
-    @include text-3xl;
+    @include text-2xl;
     text-align: center;
     font-weight: 600;
   }
@@ -431,7 +425,7 @@
   h1 {
     padding: 10px 0;
     text-align: center;
-    @include text-3xl;
+    @include text-2xl;
   }
 
   img {

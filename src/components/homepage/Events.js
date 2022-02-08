@@ -32,7 +32,9 @@ function Events() {
           <div className="Events-row">
             {EventInfo.map((event, index) => (
               <div className="Events-card">
-                <img src={event.image} alt={event.title} />
+                <div className="Event-img" style={cardBg(event.image)}>
+                  <img src={event.image} alt={event.title} />
+                </div>
                 <p>{event.desc}</p>
               </div>
             ))}
