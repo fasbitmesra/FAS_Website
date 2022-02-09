@@ -214,20 +214,20 @@
   .Events-grid {
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding: 30px 0 20px;
 
     .Events-row {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      height: 1250px;
 
       .Events-card {
-        width: 30%;
+        width: 32%;
         overflow: hidden;
         @include hide-scrollbar;
         position: relative;
-        margin: 20px 0 10px;
+        margin: 8px;
         cursor: default;
 
         img {
@@ -241,7 +241,7 @@
           top: 50%;
           transform: translateY(-50%);
           color: $white-text;
-          padding: 30px;
+          padding: 0 30px;
           text-align: justify;
           opacity: 0;
           max-height: 100%;
@@ -269,9 +269,11 @@
   .Events-container {
     .Events-grid {
       .Events-row {
+        height: 100vw;
         .Events-card {
           p {
-            font-size: 14px;
+            font-size: 13px;
+            padding: 0 20px;
           }
         }
       }
@@ -283,8 +285,12 @@
   .Events-container {
     .Events-grid {
       .Events-row {
+        height: 175vw;
         .Events-card {
-          width: 42%;
+          width: 49%;
+          &:nth-last-child(1) {
+            display: none;
+          }
         }
       }
     }
@@ -295,8 +301,11 @@
   .Events-container {
     .Events-grid {
       .Events-row {
+        padding: 0 40px;
+        height: auto;
         .Events-card {
-          width: 80%;
+          margin: 4px;
+          width: 98%;
         }
       }
     }
@@ -340,7 +349,7 @@
 
 @media (max-width: 768px) {
   .Spectra-section {
-    padding: 0 15px;
+    padding: 10px 15px;
     flex-direction: column-reverse;
 
     img {
