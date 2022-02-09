@@ -223,7 +223,7 @@
       height: 1250px;
 
       .Events-card {
-        width: 32%;
+        width: calc(33% - 16px);
         overflow: hidden;
         @include hide-scrollbar;
         position: relative;
@@ -285,12 +285,9 @@
   .Events-container {
     .Events-grid {
       .Events-row {
-        height: 175vw;
+        height: 225vw;
         .Events-card {
           width: 49%;
-          &:nth-last-child(1) {
-            display: none;
-          }
         }
       }
     }
@@ -386,7 +383,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 
     .Workshop-card {
       width: 30%;

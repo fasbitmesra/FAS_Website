@@ -6,17 +6,17 @@ const WorkshopInfo = [
   {
     title: "WaterColour Workshop",
     image: WaterColour,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    desc: "FAS conducts a hands-on watercolour workshop to acquaint participants with the various brush strokes and painting styles that are often used in what has become one of the most widely used painting mediums today.",
   },
   {
     title: "Charcoal Workshop",
     image: Charcoal,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    desc: "Charcoal painting brings that expression and produces alluring grey, black,and soft smudgy shades giving a vivid effect to any artwork. FAS conducts a two-day charcoal workshop to introduce new artists to this beautifull medium and best learners also stand a chance to win exciting prizes.",
   },
   {
     title: "Coffee Workshop",
     image: Coffee,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    desc: "The delicious roasted smell of fresh coffee in the morning is what gets most of us though the day. FAS guides participants into using this incredible brew to create works of art with just a piece of paper, a single brush and some coffee.",
   },
 ];
 

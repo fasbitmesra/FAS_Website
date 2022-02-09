@@ -1,10 +1,10 @@
-import Deeprangini from "../assets/event posters/Deeprangini.png";
+import Deeprangini from "../assets/event posters/Deeprangini.jpg";
 import Kshitiz from "../assets/event posters/Kshitiz.jpg";
 import Junky from "../assets/event posters/Junky.jpg";
 import HashtkalaEShastri from "../assets/event posters/HastkalaEShastri.jpg";
 import LockdownCreativity from "../assets/event posters/LockdownCreativity.jpg";
 import ChromaHeroes from "../assets/event posters/ChromaHeroes.jpg";
-import ArtClash from "../assets/event posters/ArtClash.png";
+import ArtClash from "../assets/event posters/ArtClash.jpg";
 
 const EventInfo = [
   {
@@ -15,12 +15,12 @@ const EventInfo = [
   {
     title: "Lockdown Creativity",
     image: LockdownCreativity,
-    desc: "Lockdown Creativity is an online exhibition where the students can display their artworks. Participants get a great chance to showcase how well they can handle waterwashes, pastels, and other colours. All the mesmerizing artwork, craftwork, and DIY captivates theattention of the audience with the entries being featured on the insta and fb handles.",
+    desc: "Lockdown Creativity is an open theme online competition where the participants get a great chance to showcase how well they can handle waterwashes, pastels, and other colours. All the mesmerizing artwork, craftwork, and DIY get featured on our social media handles and winners get exciting prizes.",
   },
   {
     title: "Art Clash",
     image: ArtClash,
-    desc: "Kshitiz is annual the Rakshabandhan event in which all the participants are presented with an opportunity to showcase their talents and send in their artwork and win prizes. “DOR” the rakhi making competition and “KALA MANCH”, a mandala design competition is organised which receives PAN India participation with great zeal.",
+    desc: "Art Clash is an open theme online exhibition where the participants can display their artworks. All the mesmerizing artwork, craftwork, and DIY captivates the attention of the audience with the entries being featured on our insta and fb handles.",
   },
 
   {
