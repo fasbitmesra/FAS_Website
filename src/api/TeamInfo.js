@@ -91,7 +91,7 @@ const TeamInfo = {
     },
     {
       name: "Diksha Prasad",
-      post: "Joint General Secretary",
+      post: "Joint Secretary",
       image: DikshaPrasad,
       facebookLink: "/#team",
       instagramLink: "/#team",
