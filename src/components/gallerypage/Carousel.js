@@ -14,7 +14,7 @@ function Carousel({ title, images }) {
         <h2>{title}</h2>
         <div className="Carousel-row" ref={scrl}>
           {images.map((image, index) => (
-            <img src={image} alt={index} />
+            <img src={image} alt={index} key={index} />
           ))}
         </div>
         <div className="Carousel-left Carousel-control">

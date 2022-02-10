@@ -20,7 +20,7 @@ function Team() {
 
         <div className="Team-grid">
           {TeamInfo.members.map((member, index) => (
-            <div className="Member-card">
+            <div className="Member-card" key={member.name}>
               <div className={`Member-pic col-${index % 5}`}>
                 <div className="Image-border">
                   <img src={member.image} alt="..." />

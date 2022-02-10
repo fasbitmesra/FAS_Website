@@ -66,10 +66,11 @@ function Contact() {
           <div className="Contact-social">
             <p>Connect with us on Social Media</p>
             <div className="Social-icon-container">
-              {FasSocialInfo.map((social, index) => {
-                const { link, icon } = social;
+              {FasSocialInfo.map((social) => {
+                const { name, link, icon } = social;
                 return (
                   <a
+                    key={name}
                     href={link}
                     target="_blank"
                     rel="noopener noreference noreferrer"
@@ -84,7 +85,7 @@ function Contact() {
         <div className="Contact-form">
           <form>
             <div className="Form-group">
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <div className="">
                 <input
                   type="text"
@@ -96,7 +97,7 @@ function Contact() {
               </div>
             </div>
             <div className="Form-group">
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <div className="col-sm-10">
                 <input
                   type="email"
@@ -108,7 +109,7 @@ function Contact() {
               </div>
             </div>
             <div className="Form-group">
-              <label for="comment">Message</label>
+              <label htmlFor="comment">Message</label>
               <br />
               <textarea
                 name="message"

@@ -30,8 +30,8 @@ function Events() {
 
         <div className="Events-grid">
           <div className="Events-row">
-            {EventInfo.map((event, index) => (
-              <div className="Events-card">
+            {EventInfo.map((event) => (
+              <div className="Events-card" key={event.title}>
                 <img src={event.image} alt={event.title} />
                 <p>{event.desc}</p>
               </div>
@@ -62,8 +62,8 @@ function Events() {
         <h2>Workshops</h2>
 
         <div className="Workshops-grid">
-          {WorkshopInfo.map((event, index) => (
-            <div className="Workshop-card">
+          {WorkshopInfo.map((event) => (
+            <div className="Workshop-card" key={event.title}>
               <div style={cardBg(event.image)} className="Workshop-img">
                 <img src={event.image} alt={event.title} className="content" />
               </div>

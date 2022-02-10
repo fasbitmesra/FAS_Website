@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Row1} from "../../assets/homepage gallery";
+import { Row1 } from "../../assets/homepage gallery";
 
 function Slider() {
   return (
@@ -8,7 +8,7 @@ function Slider() {
       <div className="Slider-container">
         <div className="Slider-row">
           {Row1.map((image, index) => (
-            <img src={image} alt={index} />
+            <img src={image} alt={index} key={index} />
           ))}
         </div>
         <div className="Slider-btn">

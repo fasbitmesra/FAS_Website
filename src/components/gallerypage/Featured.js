@@ -8,7 +8,7 @@ function Featured() {
         <h2>Featured Artworks</h2>
         <div className="Featured-grid">
           {FeaturedArtworks.map((artwork, index) => (
-            <div className="Featured-card">
+            <div className="Featured-card" key={index}>
               <div className="Featured-img">
                 <img
                   src={artwork.image}

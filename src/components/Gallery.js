@@ -17,7 +17,11 @@ function Gallery() {
       <Featured />
 
       {Categories.map((category, index) => (
-        <Carousel title={category.title} images={category.images} />
+        <Carousel
+          title={category.title}
+          images={category.images}
+          key={category.title}
+        />
       ))}
 
       <Footer />

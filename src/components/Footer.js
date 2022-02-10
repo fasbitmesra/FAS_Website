@@ -61,10 +61,15 @@ function Footer() {
           <div className="Footer-social">
             <h3>Social Media</h3>
             <div className="Social-icon-container">
-              {FasSocialInfo.map((social, index) => {
-                const { link, icon } = social;
+              {FasSocialInfo.map((social) => {
+                const { name, link, icon } = social;
                 return (
-                  <a href={link} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    key={name}
+                  >
                     <div className="Social-icon">{icon}</div>
                   </a>
                 );
