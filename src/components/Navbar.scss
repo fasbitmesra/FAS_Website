@@ -68,7 +68,7 @@
         -4px 4px 8px rgba($primary-text, 0.15);
       z-index: 5;
 
-      transform: translateX(110%);
+      transform: translateX(110%) translateY(-50%) scale(0);
       transition: transform 0.25s;
 
       li {
@@ -82,7 +82,7 @@
     }
 
     .Show-menu {
-      transform: translateX(0);
+      transform: translateX(0) translateY(0) scale(1);
     }
 
     .Hamburger {

@@ -53,7 +53,7 @@ function Footer() {
                   <NavLink to="/gallery">Gallery</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/spectra">Spectra</NavLink>
+                  <NavLink to="/#">Spectra</NavLink>
                 </li>
               </ul>
             </div>
