@@ -12,6 +12,10 @@ function Navbar() {
     setHamburgerOpen(!hamburgerOpen);
   };
 
+  const closeMenu = () => {
+    setHamburgerOpen(false);
+  };
+
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -70;
@@ -24,12 +28,17 @@ function Navbar() {
         <img src={Logo} alt="FAS Logo" />
         <ul className={hamburgerOpen ? "Show-menu" : ""}>
           <li>
-            <NavLink smooth to="/#">
+            <NavLink smooth to="/#" onClick={closeMenu}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink smooth to="/#about" scroll={scrollWithOffset}>
+            <NavLink
+              smooth
+              to="/#about"
+              scroll={scrollWithOffset}
+              onClick={closeMenu}
+            >
               About
             </NavLink>
           </li>
@@ -39,17 +48,32 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink smooth to="/#events" scroll={scrollWithOffset}>
+            <NavLink
+              smooth
+              to="/#events"
+              scroll={scrollWithOffset}
+              onClick={closeMenu}
+            >
               Events
             </NavLink>
           </li>
           <li>
-            <NavLink smooth to="/#team" scroll={scrollWithOffset}>
+            <NavLink
+              smooth
+              to="/#team"
+              scroll={scrollWithOffset}
+              onClick={closeMenu}
+            >
               Team
             </NavLink>
           </li>
           <li>
-            <NavLink smooth to="/#contact" scroll={scrollWithOffset}>
+            <NavLink
+              smooth
+              to="/#contact"
+              scroll={scrollWithOffset}
+              onClick={closeMenu}
+            >
               Contact
             </NavLink>
           </li>
