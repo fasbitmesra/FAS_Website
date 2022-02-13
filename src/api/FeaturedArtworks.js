@@ -1,6 +1,7 @@
 import Irffan from "../assets/featured artworks/Irffan.png";
 import Lata from "../assets/featured artworks/Lata.png";
 import Saraswati from "../assets/featured artworks/Saraswati.jpg";
+import Shaam from "../assets/featured artworks/Shaam.jpg";
 
 const FeaturedArtworks = [
   {
@@ -19,9 +20,9 @@ const FeaturedArtworks = [
     image: Saraswati,
   },
   {
-    title: "Irffan Khan Portrait",
-    artist: "Harsh Singh",
-    image: Irffan,
+    title: "Yeh Shaam Mastani",
+    artist: "Diksha Prasad",
+    image: Shaam,
   },
 ];
 

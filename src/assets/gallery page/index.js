@@ -1,10 +1,17 @@
-import Bts1 from "./bts/img1.jpg";
-import Bts2 from "./bts/img2.jpg";
-import Bts3 from "./bts/img3.jpg";
-import Bts4 from "./bts/img4.jpg";
-import Bts5 from "./bts/img5.jpg";
-import Bts6 from "./bts/img6.jpg";
-import Bts7 from "./bts/img7.jpg";
+import Bit1 from "./bitotsav/img1.jpg";
+import Bit2 from "./bitotsav/img2.jpg";
+import Bit3 from "./bitotsav/img3.jpg";
+import Bit4 from "./bitotsav/img4.jpg";
+import Bit5 from "./bitotsav/img5.jpg";
+import Bit6 from "./bitotsav/img6.jpg";
+import Bit7 from "./bitotsav/img7.jpg";
+
+import Pan1 from "./pantheon/img1.jpg";
+import Pan2 from "./pantheon/img2.jpg";
+import Pan3 from "./pantheon/img3.jpg";
+import Pan4 from "./pantheon/img4.jpg";
+import Pan5 from "./pantheon/img5.jpg";
+import Pan6 from "./pantheon/img6.jpg";
 
 import Far1 from "./farewell/img1.png";
 import Far2 from "./farewell/img2.png";
@@ -33,10 +40,28 @@ import Ksh5 from "./kshitiz/img5.jpg";
 import Ksh6 from "./kshitiz/img6.jpg";
 import Ksh7 from "./kshitiz/img7.jpg";
 
+import Spec1 from "./spectra/img1.jpg";
+import Spec2 from "./spectra/img2.jpg";
+import Spec3 from "./spectra/img3.jpg";
+import Spec4 from "./spectra/img4.jpg";
+import Spec5 from "./spectra/img5.jpg";
+import Spec6 from "./spectra/img6.jpg";
+import Spec7 from "./spectra/img7.jpg";
+import Spec8 from "./spectra/img8.jpg";
+import Spec9 from "./spectra/img9.jpg";
+
 const Categories = [
   {
-    title: "Behind the Scenes",
-    images: [Bts1, Bts2, Bts3, Bts4, Bts5, Bts6, Bts7],
+    title: "Spectra",
+    images: [Spec1, Spec2, Spec3, Spec4, Spec5, Spec6, Spec7, Spec8, Spec9],
+  },
+  {
+    title: "Bitotsav",
+    images: [Bit1, Bit2, Bit3, Bit4, Bit5, Bit6, Bit7],
+  },
+  {
+    title: "Pantheon",
+    images: [Pan1, Pan2, Pan3, Pan4, Pan5, Pan6],
   },
   {
     title: "Deeprangini Entries",
@@ -47,7 +72,7 @@ const Categories = [
     images: [Ksh1, Ksh2, Ksh3, Ksh4, Ksh5, Ksh6, Ksh7],
   },
   {
-    title: "Farewell",
+    title: "Farewell K17",
     images: [Far1, Far2, Far3, Far4, Far5, Far6, Far7, Far8, Far9, Far10],
   },
 ];
