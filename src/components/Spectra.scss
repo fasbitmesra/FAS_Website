@@ -1,26 +1,63 @@
 @import "../index.scss";
+.Spectra-bg {
+  padding-bottom: 50px;
 
-.Spectra-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  h1 {
-    text-align: center;
-    margin: 30px auto;
+  .Spectra-Nav {
+    padding: 0 40px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 65px;
+      margin-top: 5px;
+    }
+
+    a {
+      @include text-lg;
+
+      &:hover {
+        text-decoration: underline;
+        transition: 0.2s;
+      }
+    }
   }
 
-  .Spectra-Trailer {
-    position: relative;
-    padding-top: 56.25%;
-    overflow: hidden;
+  .Spectra-container {
+    max-width: 1200px;
+    margin: 0 auto;
 
-    .video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
+    .Spectra-head {
+      text-align: center;
+      margin: 100px auto;
+
+      .Spectra-Logo {
+        width: 100%;
+        padding: 10px;
+      }
+
+      .Spectra-Date {
+        width: 40%;
+      }
+    }
+
+    .Spectra-Trailer {
+      position: relative;
+      padding-top: 56.25%;
+      overflow: hidden;
+
+      .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }

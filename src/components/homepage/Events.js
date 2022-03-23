@@ -4,6 +4,7 @@ import WorkshopInfo from "../../api/WorkshopInfo";
 import EventBG from "../../assets/backgrounds/Events-bg.png";
 import WorkshopsBG from "../../assets/backgrounds/Workshops-bg.png";
 import SpectraImg from "../../assets/elements/Spectra.png";
+import { NavLink } from "react-router-dom";
 
 function Events() {
   const workshopBg = {
@@ -51,8 +52,8 @@ function Events() {
             Arts Society : SPECTRA. So, get ready for a weekend full of creative
             action and beautiful memories. Stay tuned for further updates.
           </p>
-          {/* <NavLink to="/spectra">Spectra Page</NavLink> */}
-          <span className="Spectra-btn">Coming soon</span>
+          <NavLink to="/spectra">Spectra Page</NavLink>
+          {/* <span className="Spectra-btn">Coming soon</span> */}
         </div>
 
         <img src={SpectraImg} alt="Spectra Poster" />

@@ -50,10 +50,22 @@ import Spec7 from "./spectra/img7.jpg";
 import Spec8 from "./spectra/img8.jpg";
 import Spec9 from "./spectra/img9.jpg";
 
+import Wall1 from "./wall/img1.jpg";
+import Wall2 from "./wall/img2.jpg";
+import Wall3 from "./wall/img3.jpg";
+import Wall4 from "./wall/img4.jpg";
+import Wall5 from "./wall/img5.jpg";
+import Wall6 from "./wall/img6.jpg";
+import Wall7 from "./wall/img7.jpg";
+
 const Categories = [
   {
     title: "Spectra",
     images: [Spec1, Spec2, Spec3, Spec4, Spec5, Spec6, Spec7, Spec8, Spec9],
+  },
+  {
+    title: "Wall Paintings",
+    images: [Wall1, Wall2, Wall3, Wall4, Wall5, Wall6, Wall7],
   },
   {
     title: "Bitotsav",
