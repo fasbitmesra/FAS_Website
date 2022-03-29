@@ -206,11 +206,12 @@ const TeamInfo = {
     },
     {
       name: "Utkarsh Kumar Singh",
-      post: "Webmaster",
+      post: "Website Head",
       image: UtkarshSingh,
       facebookLink: "https://www.facebook.com/profile.php?id=100006960278928",
       instagramLink: "https://www.instagram.com/singh_utkarsh902/",
-      linkedinLink: "/#team",
+      linkedinLink:
+        "/https://www.linkedin.com/in/utkarsh-kumar-singh-8a89581b6/",
     },
     {
       name: "Udisha Sresttha",

@@ -46,11 +46,11 @@ function Events() {
         <div className="Spectra-text">
           <h2>Spectra</h2>
           <p>
-            Skecthing, painting, doodling, vegetable carving, tattoo making,
-            mask making, exciting events, talk shows with famous artists,
-            amazing prizes and lots more fun; This is the annual fest of Fine
-            Arts Society : SPECTRA. So, get ready for a weekend full of creative
-            action and beautiful memories. Stay tuned for further updates.
+            Sketching, painting, doodling, vegetable carving, tattooing, mask
+            making, exciting events, talk shows with famous artists, incredible
+            awards, and a whole lot more fun; this s the annual fest of Fine
+            Arts Society : SPECTRA. So be ready for a weekend jam-packed with
+            inspiration, creativity, wonderful memories and exciting activity.
           </p>
           <NavLink to="/spectra">Spectra Page</NavLink>
           {/* <span className="Spectra-btn">Coming soon</span> */}

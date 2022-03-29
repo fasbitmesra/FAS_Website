@@ -21,14 +21,14 @@ function About() {
         <div className="About-section">
           {AboutSection({
             title: "Who Are We?",
-            desc: "The Fine Arts Society, known around the campus as FAS, is a community of like-minded individuals that have a common passion that is  the pursuit of art and collaborate together to create something beautiful and unique. FAS has people who are innovative, hardworking, and creative. FAS plays an important role in shaping students' creative background which includes paintings, crafts, sculptors and decorations. It also plays a key part in the organization as the design team decorating the college during fests.",
+            desc: "The Fine Arts Society, or FAS as it is known around campus, is a community of like-minded people sharing a strong passion for art and work together to create something beautiful and distinctive. FAS attracts imaginative, hardworking, and creative individuals. FAS has a significant impact on students' artistic backgrounds, which include paintings, crafts, sculptures, and decorations. As the institute's official design team, it also plays a vital role in the organisation of college fests.",
             image: FasLogo,
           })}
         </div>
         <div className="About-section" id="About-reverse">
           {AboutSection({
             title: "What We Do.",
-            desc: "FAS contributes to the institute's creativity and design ideas. It also organizes various workshops ranging from digital to traditional techniques for the all-round development of the students in the field of art. Main events of FAS are Spectra, the Annual Club fest and Deeprangni, the Diwali fest. Along with this several PAN India events, workshops and competitions are also organized by FAS. The major college fest BITOTSAV and technical fest PANTHEON decoration is also done by the members of FAS.",
+            desc: "FAS contributes to the institute's creativity and design ideas. It also hosts a variety of workshops, ranging from digital to traditional techniques, enabling the students' overall development in the field of art. Spectra, the Annual Club Fest, and Deeprangni, the Diwali Fest, are two of FAS's main events. In addition, FAS conducts a number of PAN India events, workshops, and competitions. FAS also contributes in the major college fest BITOTSAV and the technical fest PANTHEON as the official design team and with its creative events.",
             image: GroupPhoto,
           })}
         </div>
