@@ -16,13 +16,14 @@ import HimanshuSingh from "../assets/team pictures/HimanshuSingh.png";
 import SonalShruti from "../assets/team pictures/SonalShruti.jpg";
 import UrvashiAaryika from "../assets/team pictures/UrvashiAaryika.jpg";
 import VikashKumar from "../assets/team pictures/VikashKumar.jpg";
-import HarshitaPriya from "../assets/team pictures/HarshitaPriya.jpg";
+// import HarshitaPriya from "../assets/team pictures/HarshitaPriya.jpg";
 import AryanAkhouri from "../assets/team pictures/AryanAkhouri.jpg";
-import KhushbooDev from "../assets/team pictures/KhushbooDev.jpeg";
+// import KhushbooDev from "../assets/team pictures/KhushbooDev.jpeg";
 import HimanshuMurmu from "../assets/team pictures/HimanshuMurmu.jpg";
 import UdishaSresttha from "../assets/team pictures/UdishaSresttha.jpg";
 import DaibiMoitra from "../assets/team pictures/DaibiMoitra.jpg";
 import SayaniDas from "../assets/team pictures/SayaniDas.png";
+import UtkarshSingh from "../assets/team pictures/UtkarshSingh.jpg";
 
 const TeamInfo = {
   faculty: {
@@ -64,6 +65,14 @@ const TeamInfo = {
       facebookLink: "/#team",
       instagramLink: "https://instagram.com/deeptamdas_dd",
       linkedinLink: "https://www.linkedin.com/in/deeptam-das-8501661b1",
+    },
+    {
+      name: "Himanshu Singh",
+      post: "Design Lead",
+      image: HimanshuSingh,
+      facebookLink: "http://www.facebook.com/v3cx10/",
+      instagramLink: "https://www.instagram.com/vector.hssh/",
+      linkedinLink: "http://www.linkedin.com/in/himanshu-singh-bit/",
     },
     {
       name: "Anukriti",
@@ -139,14 +148,6 @@ const TeamInfo = {
       linkedinLink: "/#team",
     },
     {
-      name: "Himanshu Singh",
-      post: "Design Lead",
-      image: HimanshuSingh,
-      facebookLink: "http://www.facebook.com/v3cx10/",
-      instagramLink: "https://www.instagram.com/vector.hssh/",
-      linkedinLink: "http://www.linkedin.com/in/himanshu-singh-bit/",
-    },
-    {
       name: "Sonal Shruti",
       post: "Social Media Head",
       image: SonalShruti,
@@ -170,14 +171,14 @@ const TeamInfo = {
       instagramLink: "https://www.instagram.com/_vikash_18_/?hl=en",
       linkedinLink: "/#team",
     },
-    {
-      name: "Harshita Priya",
-      post: "Resource Head",
-      image: HarshitaPriya,
-      facebookLink: "/#team",
-      instagramLink: "https://www.instagram.com/harshita_priya_/?hl=en",
-      linkedinLink: "/#team",
-    },
+    // {
+    //   name: "Harshita Priya",
+    //   post: "Resource Head",
+    //   image: HarshitaPriya,
+    //   facebookLink: "/#team",
+    //   instagramLink: "https://www.instagram.com/harshita_priya_/?hl=en",
+    //   linkedinLink: "/#team",
+    // },
     {
       name: "Aryan Akhouri",
       post: "Publicity Head",
@@ -187,14 +188,14 @@ const TeamInfo = {
         "https://instagram.com/whyaryanakhouri?utm_medium=copy_link",
       linkedinLink: "http://www.linkedin.com/in/aryan-akhouri-87434a20b",
     },
-    {
-      name: "Khushboo Dev",
-      post: "Publicity Head",
-      image: KhushbooDev,
-      facebookLink: "/#team",
-      instagramLink: "https://www.instagram.com/true_fragrance/",
-      linkedinLink: "https://www.linkedin.com/in/khushboo-dev-98ab941b5",
-    },
+    // {
+    //   name: "Khushboo Dev",
+    //   post: "Publicity Head",
+    //   image: KhushbooDev,
+    //   facebookLink: "/#team",
+    //   instagramLink: "https://www.instagram.com/true_fragrance/",
+    //   linkedinLink: "https://www.linkedin.com/in/khushboo-dev-98ab941b5",
+    // },
     {
       name: "Himanshu Murmu",
       post: "Publicity Head",
@@ -202,6 +203,14 @@ const TeamInfo = {
       facebookLink: "https://www.facebook.com/profile.php?id=100006813677944",
       instagramLink: "https://www.instagram.com/murmu.himanshu/",
       linkedinLink: "https://www.linkedin.com/in/himanshu-murmu-5169061a5/",
+    },
+    {
+      name: "Utkarsh Kumar Singh",
+      post: "Webmaster",
+      image: UtkarshSingh,
+      facebookLink: "https://www.facebook.com/profile.php?id=100006960278928",
+      instagramLink: "https://www.instagram.com/singh_utkarsh902/",
+      linkedinLink: "/#team",
     },
     {
       name: "Udisha Sresttha",

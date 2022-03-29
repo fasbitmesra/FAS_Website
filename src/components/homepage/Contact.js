@@ -57,7 +57,7 @@ function Contact() {
           <div className="Contact-detail">
             <h1>Contact Us</h1>
             <p>
-              <MdLocationOn /> BIT Mesra, Ranchi - 834002
+              <MdLocationOn /> BIT Mesra, Ranchi - 835215
             </p>
             <p>
               <MdMail /> fasmesra@gmail.com
