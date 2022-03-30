@@ -206,7 +206,7 @@ const TeamInfo = {
     },
     {
       name: "Utkarsh Kumar Singh",
-      post: "Website Head",
+      post: "Webmaster",
       image: UtkarshSingh,
       facebookLink: "https://www.facebook.com/profile.php?id=100006960278928",
       instagramLink: "https://www.instagram.com/singh_utkarsh902/",
