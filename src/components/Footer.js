@@ -77,6 +77,14 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="Footer-bottom">
+          <div className="Footer-border"></div>
+          <p>
+            All artworks are owned by their respective artists. For any
+            queries/complaints contact{" "}
+            <a href="mailto:fasmesra@gmail.com">fasmesra@gmail.com</a>
+          </p>
+        </div>
       </div>
     </>
   );

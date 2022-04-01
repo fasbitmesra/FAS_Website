@@ -2,8 +2,28 @@
 
 .Footer-bg {
   background: $gray-color;
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
   margin-top: 30px;
+
+  .Footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: $secondary-bg;
+    font-size: 12px;
+    text-align: center;
+
+    .Footer-border {
+      height: 1px;
+      width: 100%;
+      margin: 40px auto 20px auto;
+      background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0),
+        rgba($secondary-bg, 1),
+        rgba(255, 0, 0, 0)
+      );
+    }
+  }
 }
 .Footer-conatiner {
   max-width: 1200px;
