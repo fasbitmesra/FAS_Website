@@ -82,7 +82,9 @@ function Footer() {
           <p>
             All artworks are owned by their respective artists. For any
             queries/complaints contact{" "}
-            <a href="mailto:fasmesra@gmail.com">fasmesra@gmail.com</a>
+            <a href="mailto:fineartssociety@bitmesra.ac.in">
+              fineartssociety@bitmesra.ac.in
+            </a>
           </p>
         </div>
       </div>

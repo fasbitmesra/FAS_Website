@@ -22,7 +22,7 @@ function Contact() {
       emailjs
         .send(
           "service_czn8abl",
-          "template_bqfhabi",
+          "template_q9519ji",
           userdata,
           "user_ASsJaHXOWVTDpNNfYXKaT"
         )
@@ -60,7 +60,7 @@ function Contact() {
               <MdLocationOn /> BIT Mesra, Ranchi - 835215
             </p>
             <p>
-              <MdMail /> fasmesra@gmail.com
+              <MdMail /> fineartssociety@bitmesra.ac.in
             </p>
           </div>
           <div className="Contact-social">

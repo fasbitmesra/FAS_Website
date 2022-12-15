@@ -13,16 +13,16 @@ import Pan4 from "./pantheon/img4.jpg";
 import Pan5 from "./pantheon/img5.jpg";
 import Pan6 from "./pantheon/img6.jpg";
 
-import Far1 from "./farewell/img1.png";
-import Far2 from "./farewell/img2.png";
-import Far3 from "./farewell/img3.png";
-import Far4 from "./farewell/img4.png";
-import Far5 from "./farewell/img5.png";
-import Far6 from "./farewell/img6.png";
-import Far7 from "./farewell/img7.png";
-import Far8 from "./farewell/img8.png";
-import Far9 from "./farewell/img9.png";
-import Far10 from "./farewell/img10.png";
+import Far1 from "./farewell/img1.jpg";
+import Far2 from "./farewell/img2.jpg";
+import Far3 from "./farewell/img3.jpg";
+import Far4 from "./farewell/img4.jpg";
+import Far5 from "./farewell/img5.jpg";
+import Far6 from "./farewell/img6.jpg";
+import Far7 from "./farewell/img7.jpg";
+import Far8 from "./farewell/img8.jpg";
+import Far9 from "./farewell/img9.jpg";
+import Far10 from "./farewell/img10.jpg";
 
 import Deep1 from "./deeprangini/img1.jpg";
 import Deep2 from "./deeprangini/img2.jpg";
@@ -84,7 +84,7 @@ const Categories = [
     images: [Ksh1, Ksh2, Ksh3, Ksh4, Ksh5, Ksh6, Ksh7],
   },
   {
-    title: "Farewell K17",
+    title: "Farewell K18",
     images: [Far1, Far2, Far3, Far4, Far5, Far6, Far7, Far8, Far9, Far10],
   },
 ];
