@@ -1,204 +1,65 @@
-import ApurvAshish from "../assets/team pictures/ApurvAshish.jpg";
-import HarshSingh from "../assets/team pictures/HarshSingh.jpeg";
-import ShailendraKumar from "../assets/team pictures/ShailendraKumar.jpg";
-import ShreyaRani from "../assets/team pictures/ShreyaRani.jpg";
-import DeeptamDas from "../assets/team pictures/DeeptamDas.jpg";
+import PrashantPrasad from "../assets/team pictures/PrashantPrasad.jpg";
 import Anukriti from "../assets/team pictures/Anukriti.jpg";
-import MeghanaTripathy from "../assets/team pictures/MeghanaTripathy.jpg";
+import Meghana from "../assets/team pictures/Meghana.jpg";
 import Rooturaj from "../assets/team pictures/RooturajSwain.jpg";
 import DikshaPrasad from "../assets/team pictures/DikshaPrasad.jpg";
-import SaurabhSuman from "../assets/team pictures/SaurabhSuman.jpg";
-import AtreyeeChatterjee from "../assets/team pictures/AtreyeeChatterjee.jpg";
-import KhushiBharadwaj from "../assets/team pictures/KhushiBharadwaj.jpg";
-import VishalSingh from "../assets/team pictures/VishalSingh.jpg";
-import SamridhiKumari from "../assets/team pictures/SamridhiKumari.jpg";
-import HimanshuSingh from "../assets/team pictures/HimanshuSingh.png";
-import SonalShruti from "../assets/team pictures/SonalShruti.jpg";
 import UrvashiAaryika from "../assets/team pictures/UrvashiAaryika.jpg";
-import VikashKumar from "../assets/team pictures/VikashKumar.jpg";
-// import HarshitaPriya from "../assets/team pictures/HarshitaPriya.jpg";
-import AryanAkhouri from "../assets/team pictures/AryanAkhouri.jpg";
-// import KhushbooDev from "../assets/team pictures/KhushbooDev.jpeg";
 import HimanshuMurmu from "../assets/team pictures/HimanshuMurmu.jpg";
-import UdishaSresttha from "../assets/team pictures/UdishaSresttha.jpg";
-import DaibiMoitra from "../assets/team pictures/DaibiMoitra.jpg";
-import SayaniDas from "../assets/team pictures/SayaniDas.png";
-import UtkarshSingh from "../assets/team pictures/UtkarshSingh.jpg";
+import Utkarsh from "../assets/team pictures/Utkarsh.jpg";
+import ChiragJha from "../assets/team pictures/ChiragJha.jpg";
+import Sharad from "../assets/team pictures/Sharad.jpg";
+import Kaustav from "../assets/team pictures/Kaustav.jpg";
+import SouravJha from "../assets/team pictures/SouravJha.jpg";
+import Akshat from "../assets/team pictures/Akshat.jpg";
+import BibekRay from "../assets/team pictures/BibekRay.jpg";
+import Biswasarathi from "../assets/team pictures/Biswasarathi.jpg";
+import Avani from "../assets/team pictures/Avani.jpg";
+import Simrita from "../assets/team pictures/Simrita.jpg";
+import Shomya from "../assets/team pictures/Shomya.jpg";
+import PrashantPatil from "../assets/team pictures/PrashantPatil.jpg";
+import BundAgarwal from "../assets/team pictures/BundAgarwal.jpg";
+import Ritesh from "../assets/team pictures/Ritesh.jpg";
+import Avinash from "../assets/team pictures/Avinash.jpg";
+import Archana from "../assets/team pictures/Archana.jpg";
+import Anurag from "../assets/team pictures/Anurag.jpg";
+import Atreyee from "../assets/team pictures/Atreyee.jpg";
+import Samriddhi from "../assets/team pictures/Samriddhi.jpg";
 
 const TeamInfo = {
   faculty: {
-    name: "Dr. Apurv Ashish",
+    name: "Dr. Prashant Prasad",
     post: "Faculty Advisor",
-    image: ApurvAshish,
+    image: PrashantPrasad,
   },
 
   members: [
     {
-      name: "Harsh Singh",
-      post: "President",
-      image: HarshSingh,
-      facebookLink: "https://www.facebook.com/harsh.singh.353803/",
-      instagramLink: "https://www.instagram.com/harsh999924/",
-      linkedinLink: "https://www.linkedin.com/in/harsh-singh-bit/",
-    },
-    {
-      name: "Shailendra Kumar",
-      post: "Joint President",
-      image: ShailendraKumar,
-      facebookLink: "/#team",
-      instagramLink: "https://instagram.com/arto_grapher_",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Shreya Rani",
-      post: "Vice President",
-      image: ShreyaRani,
-      facebookLink: "https://www.facebook.com/profile.php?id=100016352625574",
-      instagramLink:
-        "https://instagram.com/shreyasharma9902?utm_medium=copy_link",
-      linkedinLink: "https://www.linkedin.com/in/shreya-rani-4446671b6",
-    },
-    {
-      name: "Deeptam Das",
-      post: "Vice President",
-      image: DeeptamDas,
-      facebookLink: "/#team",
-      instagramLink: "https://instagram.com/deeptamdas_dd",
-      linkedinLink: "https://www.linkedin.com/in/deeptam-das-8501661b1",
-    },
-    {
-      name: "Himanshu Singh",
-      post: "Design Lead",
-      image: HimanshuSingh,
-      facebookLink: "http://www.facebook.com/v3cx10/",
-      instagramLink: "https://www.instagram.com/vector.hssh/",
-      linkedinLink: "http://www.linkedin.com/in/himanshu-singh-bit/",
-    },
-    {
       name: "Anukriti",
-      post: "General Secretary",
+      post: "President",
       image: Anukriti,
       facebookLink: "https://www.facebook.com/anukriti.chakrapani",
-      instagramLink: "https://instagram.com/anukriti945?utm_medium=copy_link",
+      instagramLink: "https://instagram.com/anukriti945?igshid=YmMyMTA2M2Y=",
       linkedinLink: "https://www.linkedin.com/in/anu-kriti-207ab2221",
     },
     {
       name: "Meghana Tripathy",
-      post: "General Secretary ",
-      image: MeghanaTripathy,
+      post: "Joint President",
+      image: Meghana,
       facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Rooturaj",
-      post: "Joint Secretary",
-      image: Rooturaj,
-      facebookLink: "/#team",
-      instagramLink: "https://www.instagram.com/artisticmechanzie/",
+      instagramLink: "https://instagram.com/meghana3779?igshid=YmMyMTA2M2Y=",
       linkedinLink: "/#team",
     },
     {
       name: "Diksha Prasad",
-      post: "Joint Secretary",
+      post: "Vice President",
       image: DikshaPrasad,
       facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
+      instagramLink: "https://instagram.com/dksshaa?igshid=YmMyMTA2M2Y=",
+      linkedinLink: "https://www.linkedin.com/in/diksha-prasad-a30990199",
     },
-    {
-      name: "Saurabh Suman",
-      post: "Treasurer",
-      image: SaurabhSuman,
-      facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Atreyee Chatterjee",
-      post: "Joint Treasurer",
-      image: AtreyeeChatterjee,
-      facebookLink: "https://www.facebook.com/rupa.chatterjee.798",
-      instagramLink: "https://instagram.com/mystique__ac?utm_medium=copy_link",
-      linkedinLink: "https://www.linkedin.com/in/atreyee-chatterjee-7b9a08196",
-    },
-    {
-      name: "Khushi Bhardwaj",
-      post: "Joint Treasurer",
-      image: KhushiBharadwaj,
-      facebookLink: "https://www.facebook.com/profile.php?id=100057593744743",
-      instagramLink:
-        "https://instagram.com/kreative_bhardwaj?utm_medium=copy_link",
-      linkedinLink: "https://www.linkedin.com/in/khushi-bhardwaj-0a18881a7",
-    },
-    {
-      name: "Vishal Singh",
-      post: "Creative Head",
-      image: VishalSingh,
-      facebookLink: "https://www.facebook.com/profile.php?id=100030153136636",
-      instagramLink: "https://www.instagram.com/_vishal_singhrajput?r=nametag",
-      linkedinLink: "https://www.linkedin.com/in/vishal-singh-5bb855205",
-    },
-    {
-      name: "Samridhi Kumari",
-      post: "Design Head",
-      image: SamridhiKumari,
-      facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Sonal Shruti",
-      post: "Social Media Head",
-      image: SonalShruti,
-      facebookLink: "/#team",
-      instagramLink: "/#team",
-      linkedinLink: "/#team",
-    },
-    {
-      name: "Urvashi Aaryika",
-      post: "Social Media Head",
-      image: UrvashiAaryika,
-      facebookLink: "https://www.facebook.com/urvashi.aaryika06/",
-      instagramLink: "https://instagram.com/anukriti945?utm_medium=copy_link",
-      linkedinLink: "https://www.linkedin.com/in/urvashi-aaryika/",
-    },
-    {
-      name: "Vikash Kumar",
-      post: "Resource Head",
-      image: VikashKumar,
-      facebookLink: "/#team",
-      instagramLink: "https://www.instagram.com/_vikash_18_/?hl=en",
-      linkedinLink: "/#team",
-    },
-    // {
-    //   name: "Harshita Priya",
-    //   post: "Resource Head",
-    //   image: HarshitaPriya,
-    //   facebookLink: "/#team",
-    //   instagramLink: "https://www.instagram.com/harshita_priya_/?hl=en",
-    //   linkedinLink: "/#team",
-    // },
-    {
-      name: "Aryan Akhouri",
-      post: "Publicity Head",
-      image: AryanAkhouri,
-      facebookLink: "/#team",
-      instagramLink:
-        "https://instagram.com/whyaryanakhouri?utm_medium=copy_link",
-      linkedinLink: "http://www.linkedin.com/in/aryan-akhouri-87434a20b",
-    },
-    // {
-    //   name: "Khushboo Dev",
-    //   post: "Publicity Head",
-    //   image: KhushbooDev,
-    //   facebookLink: "/#team",
-    //   instagramLink: "https://www.instagram.com/true_fragrance/",
-    //   linkedinLink: "https://www.linkedin.com/in/khushboo-dev-98ab941b5",
-    // },
     {
       name: "Himanshu Murmu",
-      post: "Publicity Head",
+      post: "Vice President",
       image: HimanshuMurmu,
       facebookLink: "https://www.facebook.com/profile.php?id=100006813677944",
       instagramLink: "https://www.instagram.com/murmu.himanshu/",
@@ -206,38 +67,175 @@ const TeamInfo = {
     },
     {
       name: "Utkarsh Kumar Singh",
-      post: "Webmaster",
-      image: UtkarshSingh,
-      facebookLink: "https://www.facebook.com/profile.php?id=100006960278928",
+      post: "Vice President",
+      image: Utkarsh,
+      facebookLink: "/#team",
       instagramLink: "https://www.instagram.com/singh_utkarsh902/",
       linkedinLink:
-        "/https://www.linkedin.com/in/utkarsh-kumar-singh-8a89581b6/",
+        "https://www.linkedin.com/in/utkarsh-kumar-singh-8a89581b6/",
     },
     {
-      name: "Udisha Sresttha",
-      post: "Executive Member",
-      image: UdishaSresttha,
-      facebookLink: "/#team",
-      instagramLink: "https://www.instagram.com/newtonsapple/",
+      name: "Chirag Jha",
+      post: "General Secretary",
+      image: ChiragJha,
+      facebookLink: "https://www.instagram.com/chiragjha_28/",
+      instagramLink: "https://www.instagram.com/chiragjha_28/",
+      linkedinLink: "https://www.linkedin.com/in/chirag-jha-a7894a220",
+    },
+    {
+      name: "Sharad Oraon",
+      post: "General Secretary ",
+      image: Sharad,
+      facebookLink: "https://www.facebook.com/wtfSharad/",
+      instagramLink: "https://www.instagram.com/wtfsharad/",
+      linkedinLink: "https://www.linkedin.com/in/sharad-oraon-a737431b5/",
+    },
+    {
+      name: "Kaustav Mitra",
+      post: "Joint Secretary",
+      image: Kaustav,
+      facebookLink: "https://www.facebook.com/profile.php?id=100006049156610",
+      instagramLink: "https://www.instagram.com/kaustav.mitra_/",
+      linkedinLink: "https://www.linkedin.com/in/kaustav-mitra-a64122205/",
+    },
+    {
+      name: "Sourav Jha",
+      post: "Treasurer",
+      image: SouravJha,
+      facebookLink: "https://m.facebook.com/100007048900769/",
+      instagramLink: "https://www.instagram.com/souravjha06/",
       linkedinLink:
-        "https://www.linkedin.com/mwlite/in/udisha-sresttha-0b5821107",
+        "https://www.linkedin.com/mwlite/in/sourav-kumar-jha-992004203",
     },
     {
-      name: "Daibi Moitra",
-      post: "Executive Member",
-      image: DaibiMoitra,
-      facebookLink: "/#team",
-      instagramLink: "https://www.facebook.com/daibi.moitra",
-      linkedinLink: "https://in.linkedin.com/in/daibi-moitra-118a96167",
+      name: "Akshat Sinha",
+      post: "Joint Treasurer",
+      image: Akshat,
+      facebookLink: "https://www.facebook.com/akshat.sinha.7965",
+      instagramLink: "https://www.instagram.com/akshat_sinha27/",
+      linkedinLink: "/#team",
     },
     {
-      name: "Sayani Das",
-      post: "Executive Member",
-      image: SayaniDas,
+      name: "Bibek Ray",
+      post: "Design Head",
+      image: BibekRay,
+      facebookLink: "https://www.facebook.com/bibek.ray.9461",
+      instagramLink: "https://www.instagram.com/its_bibek.291",
+      linkedinLink: "https://www.linkedin.com/in/bibek-ray-061727220",
+    },
+    {
+      name: "Biswasarthi Basak",
+      post: "Content Head",
+      image: Biswasarathi,
+      facebookLink: "https://www.facebook.com/profile.php?id=100008261253504",
+      instagramLink: "https://www.instagram.com/biswasarathi_basak/",
+      linkedinLink: "https://www.linkedin.com/in/biswasarathi-basak-38159223a",
+    },
+    {
+      name: "Avani Jindal",
+      post: "Content Head",
+      image: Avani,
       facebookLink: "/#team",
+      instagramLink: "/#team",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Prashant Sampatrao Patil",
+      post: "Social Media Head",
+      image: PrashantPatil,
+      facebookLink: "/#team",
+      instagramLink: "https://www.instagram.com/_prashant_7777/",
+      linkedinLink: "https://www.linkedin.com/in/prashant-patil-082255218",
+    },
+    {
+      name: "Shomya Chandrani",
+      post: "Social Media Head",
+      image: Shomya,
+      facebookLink: "https://www.facebook.com/shomya.chandrani",
       instagramLink:
-        "https://instagram.com/sayani_das102k?utm_medium=copy_link",
-      linkedinLink: "https://www.linkedin.com/in/sayani-das-7210951a5",
+        "https://instagram.com/shomya_chandrani?igshid=YmMyMTA2M2Y=",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Simrita Manda",
+      post: "Event Head",
+      image: Simrita,
+      facebookLink: "/#team",
+      instagramLink: "https://www.instagram.com/simrita365/",
+      linkedinLink: "https://www.linkedin.com/in/simrita-m-b37a22203",
+    },
+    {
+      name: "Bund Agarwal",
+      post: "Resource Head",
+      image: BundAgarwal,
+      facebookLink: "https://www.facebook.com/profile.php?id=100009267256050",
+      instagramLink:
+        "https://www.instagram.com/invites/contact/?i=u1s1k22ov6hr&utm_content=2hkpxoo",
+      linkedinLink: "https://www.linkedin.com/in/bund-agarwal-440369211",
+    },
+    {
+      name: "Ritesh Raj Sinha",
+      post: "Resource Head",
+      image: Ritesh,
+      facebookLink: "https://www.facebook.com/riteshrajsinha272",
+      instagramLink: "https://www.instagram.com/riteshrajsinha/",
+      linkedinLink: "https://www.linkedin.com/in/riteshrajsinha067/",
+    },
+    {
+      name: "Avinash Lakra",
+      post: "Publicity Head",
+      image: Avinash,
+      facebookLink: "https://www.facebook.com/avinash.lakra.338863",
+      instagramLink: "http://instagram.com/avinash_lakra21?utm_source=qr",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Archana Keshri",
+      post: "Publicity Head",
+      image: Archana,
+      facebookLink: "https://www.facebook.com/archana.keshri.9216",
+      instagramLink: "https://www.instagram.com/_.archana._.19/",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Anurag Pathank",
+      post: "Creattive Head",
+      image: Anurag,
+      facebookLink: "https://www.facebook.com/anurag.pathak.9026040",
+      instagramLink: "http://instagram.com/anu_rag0016",
+      linkedinLink: "https://www.linkedin.com/in/anurag-pathak-61677721a",
+    },
+    {
+      name: "Urvashi Aaryika",
+      post: "Executive Member",
+      image: UrvashiAaryika,
+      facebookLink: "/#team",
+      instagramLink: "https://www.instagram.com/urvashi0625/",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Atreyee Chatterjee",
+      post: "Executive Member",
+      image: Atreyee,
+      facebookLink: "https://www.facebook.com/rupa.chatterjee.798",
+      instagramLink: "https://instagram.com/mystique__ac?igshid=YmMyMTA2M2Y=",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Rooturaj Swain",
+      post: "Executive Member",
+      image: Rooturaj,
+      facebookLink: "/#team",
+      instagramLink: "/#team",
+      linkedinLink: "/#team",
+    },
+    {
+      name: "Samriddhi Kumari",
+      post: "Executive Member",
+      image: Samriddhi,
+      facebookLink: "/#team",
+      instagramLink: "/#team",
+      linkedinLink: "/#team",
     },
   ],
 };
