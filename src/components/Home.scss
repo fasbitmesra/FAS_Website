@@ -446,6 +446,13 @@
     padding: 10px 0;
     text-align: center;
     @include text-2xl;
+    
+  }
+  h2 {
+    color: $secondary-text;
+    padding: 20px 0 40px 0;
+    text-align: center;
+    @include text-xl;
   }
 
   img {
@@ -507,6 +514,7 @@
             width: 100%;
             border-radius: 50%;
             align-self: center;
+            aspect-ratio: 1/1;
           }
         }
 
@@ -594,7 +602,10 @@
     p {
       font-size: 14px;
     }
-
+    h2{
+      font-size: 20px;
+      padding: 10px 0;
+    }
     img {
       border: solid 6px white;
     }
